@@ -1,4 +1,4 @@
-Unsupervised Machine Learning Technique - KMeans Clustering to analyze cryptocurrency data using Principle Component Analysis (PCA)to to reduce the number of dimensions of the scaled data. 
+Unsupervised Machine Learning Technique - KMeans Clustering to classify cryptocurrency data using Principle Component Analysis (PCA)to to reduce the number of dimensions of the scaled data. 
 
 # Cryptocurrencies
 
