@@ -4,8 +4,8 @@
 The purpose of this project is to use unsupervised machine learning techniques to analyze cryptocurrency data. The original cryptocurrency data from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist) is preprocessed using Pandas to fit Unsupervised Machine Learning models. A clustering algorithm is used to group data and hvPlot visualization are used to create a report that includes the cryptocurrencies currently on the trading market and how they could be grouped to create a classification system for the new investment.
 
 # Resources
-* Data Source: crypto_data.csv
-Software: Python 3.7.7, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3
+* Data Source: [crypto_data.csv](https://github.com/ramya-ramamur/Cryptocurrencies/tree/main/Resources)
+* Software: Python 3.7.7, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3
 
 
 # Analysis Method
