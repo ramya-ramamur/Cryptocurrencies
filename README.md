@@ -57,4 +57,4 @@ For this we will first make a new DataFrame that has the scaled data with the cl
 ![hvplot_scatter_totalcoinsmined_vs_totalcoinsupply](https://user-images.githubusercontent.com/75961057/156837102-c1a90e89-1724-4701-95bb-dd486e683360.png)
 
 # Summary
-Classification of 532 cryptocurrencies based on similarities of their features has resulted in dividing them into four classes. We can see that classes 3 and 1 are the most profitable cryptos with Bitcoin and Ethereum (class 3) being the most popular. The investment banks can now concentrate on the the individuality of these classes to determined their performance and decide the profitabilty of investing in them. 
+Classification of 532 cryptocurrencies based on similarities of their features has resulted in dividing them into four classes. We can see from the 3d Scateer plot that classes 3 and 1 contain most of the cryptos that are similar in features while classes 0 and 2 contain cryptos that are outliers. The investment banks should concentrate on the the individuality of these classes to determined their performance and decide the profitabilty of investing in them. 
