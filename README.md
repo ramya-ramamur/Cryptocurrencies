@@ -35,6 +35,7 @@ The best k value appears to be 4 so we used 4 clusters to categorize the crytocu
 ![Elbow Curve](https://user-images.githubusercontent.com/75961057/156834011-819b2904-38df-4475-9ed6-bb03f88657ef.png)
 
 ###### Dataframe after clustering.
+The column "Class" shows the cluster labels of the crypto. 
 
 ![df_after_clustering_with_KMeans](https://user-images.githubusercontent.com/75961057/156836009-b649c7dc-a35b-42e2-a49e-69b2650dab3e.png)
 
