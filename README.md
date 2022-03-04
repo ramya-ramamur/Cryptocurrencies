@@ -11,11 +11,21 @@ The purpose of this project is to use unsupervised machine learning techniques t
 ### Preprocessing the database : Used pandas to reduce dataset of 1,252 cryptocurrencies to 532 that could be used for machine learning.
   - Remove non active cryptocurrencies and cryptocurrencies that doesn't have an algorithm
   - Remove Trading status column, incomplete Data cryptocurrencies, any cryptocurrencies that hasn't been mined
-  - Extract Coin Name out and hold separately
-  - Use get_dummies method to distinguish algorithms into own feature
-  - Scale data for proper weight
-
+ 
 ![Screen Shot 2022-03-04 at 12 10 53 PM](https://user-images.githubusercontent.com/75961057/156834529-f4d626f5-fb45-43f6-84f5-891ae4a886f0.png)
+
+  - Extract Coin Name out and hold separately
+ 
+ <img width="183" alt="Screen Shot 2022-03-04 at 1 04 43 PM" src="https://user-images.githubusercontent.com/75961057/156841433-3828e9fc-c231-48a2-a0d4-8e6a226ebe9a.png">
+
+  - Use get_dummies method to distinguish algorithms into own features
+  
+ <img width="1034" alt="Screen Shot 2022-03-04 at 1 07 55 PM" src="https://user-images.githubusercontent.com/75961057/156841771-935a776b-e439-405c-a21a-40dd411c7e86.png">
+
+  - Standardize the data with StandardScaler()
+  
+<img width="1010" alt="Screen Shot 2022-03-04 at 1 10 51 PM" src="https://user-images.githubusercontent.com/75961057/156842226-6a1dbc79-1573-49ca-8b7e-9dcde970cfea.png">
+
 
 ### Use Principle Component Analysis (PCA) - SKLearn to reduce the scaled data to three components for three dimensional modeling to thin down meaningful components. 
 PCA is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. PCA reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
